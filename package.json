@@ -1,0 +1,25 @@
+{
+    "name": "kosiner-codes",
+    "displayName": "kosiner.codes theme",
+    "description": "",
+    "publisher": "Kosinercodes",
+    "author": {
+        "name": "Yoni Kosiner"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "kosiner.codes theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/kosiner.codes theme-color-theme.json"
+            }
+        ]
+    }
+}
