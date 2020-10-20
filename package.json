@@ -6,6 +6,10 @@
     "author": {
         "name": "Yoni Kosiner"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yonikosiner/VS-code-theme"
+    },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.50.0"
