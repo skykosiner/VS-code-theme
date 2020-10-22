@@ -689,10 +689,23 @@
 		{
 			"name": "css",
 			"scope": [
-				"support.constant.property-value.css"
+				"support.constant.property-value.css",
+				"constant.numeric.css",
+				"keyword.other.unit.percentage.css"
 			],
 			"settings": {
 				"foreground": "#FFFFFF",
+				"fontStyle": "bold"
+			}
+		},
+		// For what to aply in css
+		{
+			"name": "css-selector",
+			"scope": [
+				"support.type.property-name.css"
+			],
+			"settings": {
+				"foreground": "#0ada83",
 				"fontStyle": "bold"
 			}
 		}
