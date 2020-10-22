@@ -698,7 +698,7 @@
 				"fontStyle": "bold"
 			}
 		},
-		// For what to aply in css
+		// For what to apply in css
 		{
 			"name": "css-selector",
 			"scope": [
