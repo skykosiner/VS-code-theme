@@ -5,7 +5,12 @@
 		"editor.background": "#041c20",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#29631a",
-		"sideBarTitle.foreground": "#b8b3b3"
+		// Side bar
+		"sideBarTitle.foreground": "#a183d3",
+		"sideBarSectionHeader.foreground": "#fc4384bb",
+		"sideBarSectionHeader.background": "#111111",
+		"sideBar.background": "#111111",
+		"sideBar.border": "#202020"
 	},
 	"tokenColors": [
 		{
@@ -26,7 +31,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#2cffff"
 			}
 		},
 		{
@@ -65,7 +70,6 @@
 				"keyword.control",
 				"constant.other.color",
 				"punctuation",
-				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
@@ -76,7 +80,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#837878"
 			}
 		},
 		{
@@ -141,7 +145,6 @@
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
-				"string",
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
@@ -150,7 +153,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#f7f7f7"
+				"foreground": "#B973FFFA"
 			}
 		},
 		{
@@ -623,6 +626,74 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+			}
+		},
+		// For text
+		{
+			"name": "Text",
+			"scope": [
+				"meta.tag"
+			],
+			"settings": {
+				"foreground": "#ffffff",
+			}
+		},
+		// For java Script import's
+		{
+			"name": "Imports",
+			"scope": [
+				"meta.import.js"
+			],
+			"settings": {
+				"foreground": "#c7239e",
+			}
+		},
+		// For meta.tag.js
+		{
+			"name": "meta tag",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#f03174",
+			}
+		},
+		{
+			"name": "comment",
+			"scope": [
+				"comment.block",
+				"comment.block.documentation",
+				"comment.line"
+			],
+			"settings": {
+				"foreground": "#64bd1b",
+				"fontStyle": "bold"
+			}
+		},
+		// ;; and @media and @import
+		{
+			"name": "css ;:",
+			"scope": [
+				"punctuation.terminator.rule.scss",
+				"source.css.scss",
+				"value.scss",
+				"meta.property-list.scss",
+				"punctuation"
+			],
+			"settings": {
+				"foreground": "#fc4384",
+				"fontStyle": "bold"
+			}
+		},
+		// For css 
+		{
+			"name": "css",
+			"scope": [
+				"support.constant.property-value.css"
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+				"fontStyle": "bold"
 			}
 		}
 	]
